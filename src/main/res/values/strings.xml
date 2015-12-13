@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">medicineTipsApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="about_us">关于我们</string>
+    <string name="about_us_addr">地址：安徽省合肥市蜀山区梅山路B1号</string>
+    <string name="about_us_tel">Tel:0551 *********</string>
+    <string name="about_us_email">Eamil:2482066992@qq.com</string>
+    <string name="title_activity_user_form">UserFormActivity</string>
+    <string name="title_activity_medicine_list">MedicineList</string>
+    <string name="title_activity_notification_list">NotificationList</string>
+    <string name="title_activity_notification_time">NotificationTime</string>
+    <string name="title_activity_record">RecordActivity</string>
+</resources>

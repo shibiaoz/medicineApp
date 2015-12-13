@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/item_tips"
+        android:background="@drawable/top_border_stroke_white"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="@string/about_us_email"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

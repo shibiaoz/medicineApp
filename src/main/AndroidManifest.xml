@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhangshibiao.medicinetipsapp"
+    android:installLocation="preferExternal" >
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name=".UserFormActivity"
+            android:label="@string/title_activity_user_form" >
+        </activity>
+        <activity
+            android:name=".MedicineList"
+            android:label="@string/title_activity_medicine_list"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".NotificationList"
+            android:label="@string/title_activity_notification_list"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name=".NotificationTime"
+            android:label="@string/title_activity_notification_time"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+
+        <receiver android:name=".Alarmreceiver" >
+            <intent-filter>
+                <action android:name="android.alarm.demo.action" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".RecordActivity"
+            android:label="@string/title_activity_record"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+    </application>
+
+</manifest>

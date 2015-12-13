@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:orientation="vertical"
+    tools:context="com.example.zhangshibiao.medicinetipsapp.UserFormActivity">
+
+    <RelativeLayout
+        android:background="@drawable/top_border_stroke_white"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="10dp"
+            android:paddingLeft="0dp"
+            android:onClick="goBack"
+            android:id="@+id/user_center_back_btn"
+            android:src="@mipmap/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:paddingLeft="0dp"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:text="添加提醒"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/add_time_tips"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:src="@mipmap/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/tips_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
